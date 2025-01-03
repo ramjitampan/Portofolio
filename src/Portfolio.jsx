@@ -126,7 +126,7 @@ function App() {
         </div>
       </div>
 
-      <footer className="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+      <footer className="w3-content w3-padding-64 w3-text-grey w3-xlarge" id="foot" style={{ backgroundColor: '#000', color: '#fff' }}>
         <a href="#"><i className="fa fa-facebook-official w3-hover-opacity"></i></a>
         <a href="https://www.instagram.com/hamonangan.rz"><i className="fa fa-instagram w3-hover-opacity"></i></a>
         <a href="https://id.pinterest.com/junfarisramji/"><i className="fa fa-pinterest-p w3-hover-opacity"></i></a>
