@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio awak</title>
+    <!-- Tambahkan ini untuk W3.CSS dan Font Awesome -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Tambahkan favicon -->
+    <link rel="icon" type="image/png" href="tokiisaki_kurumi.jpg" />
+
+    <!-- AOS Animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  </head>
+  <body>
+    <div id="root">
+      <!-- Sidebar Navigation -->
+      <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+        <img src="tokiisaki_kurumi.jpg" alt="sidebar" style="width: 100%;" />
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black" data-aos="fade-right">
+          <i class="fa fa-home w3-xxlarge"></i>
+          <p>HOME</p>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black" data-aos="fade-right">
+          <i class="fa fa-user w3-xxlarge"></i>
+          <p>ABOUT</p>
+        </a>
+        <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black" data-aos="fade-right">
+          <i class="fa fa-eye w3-xxlarge"></i>
+          <p>PHOTOS</p>
+        </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black" data-aos="fade-right">
+          <i class="fa fa-envelope w3-xxlarge"></i>
+          <p>CONTACT</p>
+        </a>
+      </nav>
+
+      <!-- Mobile Navbar -->
+      <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+          <a href="#" class="w3-bar-item w3-button" style="width: 25%;" data-aos="fade-down">HOME</a>
+          <a href="#about" class="w3-bar-item w3-button" style="width: 25%;" data-aos="fade-down">ABOUT</a>
+          <a href="#photos" class="w3-bar-item w3-button" style="width: 25%;" data-aos="fade-down">PHOTOS</a>
+          <a href="#contact" class="w3-bar-item w3-button" style="width: 25%;" data-aos="fade-down">CONTACT</a>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="w3-padding-large" id="main" style="background-color: #000; color: #fff;">
+        <header class="w3-container w3-padding-32 w3-center w3-black" id="home" data-aos="fade-up">
+          <h1 class="w3-jumbo"><span class="w3-hide-small">Namaku</span> Ramzy Junfaris</h1>
+          <p>Desain grafis and Web Designer.</p>
+          <img src="Ramzyganteng.png" alt="boy" class="w3-image" style="width: 100%; height: auto;" />
+        </header>
+
+        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about" data-aos="fade-up">
+          <h2 class="w3-text-light-grey">Tentang Saya</h2>
+          <hr style="width: 200px;" class="w3-opacity" />
+          <p>Ramzi Junfaris adalah seorang mahasiswa yang dikenal karena minat dan keahliannya dalam bidang coding, desain grafis, dan fotografi...</p>
+          <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+          <p class="w3-wide">Photography</p>
+          <div class="w3-white">
+            <div class="w3-dark-grey" style="height: 28px; width: 40%;"></div>
+          </div>
+          <p class="w3-wide">Web Design</p>
+          <div class="w3-white">
+            <div class="w3-dark-grey" style="height: 28px; width: 65%;"></div>
+          </div>
+          <p class="w3-wide">Photoshop</p>
+          <div class="w3-white">
+            <div class="w3-dark-grey" style="height: 28px; width: 80%;"></div>
+          </div>
+          <button class="w3-button w3-light-grey w3-padding-large w3-section">
+            <i class="fa fa-download"></i> LEBIH LENGKAPNYA
+          </button>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <a href="#"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        <a href="https://www.instagram.com/hamonangan.rz"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <p class="w3-medium">Copyright © Ramzyganteng</p>
+      </footer>
+    </div>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
