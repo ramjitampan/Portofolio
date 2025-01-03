@@ -94,7 +94,7 @@ function App() {
             <p>HERO MASTERY XAVIER</p>
           </div>
           <div className="profile" data-aos="zoom-in">
-            <img src="/apip.PNG" alt="Avatar" className="w3-left w3-margin-right" style={{ width: '80px' }} />
+            <img src="/apip.png" alt="Avatar" className="w3-left w3-margin-right" style={{ width: '80px' }} />
             <p><span className="w3-large w3-margin-right">APIP</span> THE HIGH MACRO MICRO.</p>
             <p>HERO MASTERY ALUCARD & SUN.</p>
           </div>
@@ -109,12 +109,12 @@ function App() {
             <p>HERO MASTERY LING</p>
           </div>
           <div className="profile" data-aos="zoom-in">
-            <img src="/FAHMI.PNG" alt="Avatar" className="w3-left w3-margin-right" style={{ width: '80px' }} />
+            <img src="/FAHMI.png" alt="Avatar" className="w3-left w3-margin-right" style={{ width: '80px' }} />
             <p><span className="w3-large w3-margin-right">FAHMI</span> THE GREAT MATILDA.</p>
             <p>HERO MASTERY MATHILDA</p>
           </div>
           <div className="profile" data-aos="zoom-in">
-            <img src="/ilham.PNG" alt="Avatar" className="w3-left w3-margin-right" style={{ width: '80px' }} />
+            <img src="/ilham.png" alt="Avatar" className="w3-left w3-margin-right" style={{ width: '80px' }} />
             <p><span className="w3-large w3-margin-right">ILHAM</span> THE GOAT OF FHANY.</p>
             <p>HERO MASTERY FHANY</p>
           </div>
