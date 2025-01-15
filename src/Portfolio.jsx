@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './hellowak.css';
 import './animations.css';
+import { Link } from 'react-router-dom';
 
 function App() {
   useEffect(() => {
@@ -25,12 +26,12 @@ function App() {
           <p>ABOUT</p>
         </a>
         <a href="#photos" className="w3-bar-item w3-button w3-padding-large w3-hover-black" data-aos="fade-right">
-          <i className="fa fa-eye w3-xxlarge"></i>
+          <i className="fa fa-photo w3-xxlarge"></i>
           <p>PHOTOS</p>
         </a>
-        <a href="#contact" className="w3-bar-item w3-button w3-padding-large w3-hover-black" data-aos="fade-right">
-          <i className="fa fa-envelope w3-xxlarge"></i>
-          <p>CONTACT</p>
+        <a href="#freands" className="w3-bar-item w3-button w3-padding-large w3-hover-black" data-aos="fade-right">
+          <i className="fa fa-users w3-xxlarge"></i>
+          <p>TEMAN</p>
         </a>
       </nav>
 
@@ -39,7 +40,7 @@ function App() {
           <a href="#" className="w3-bar-item w3-button" style={{ width: '25%' }} data-aos="fade-down">HOME</a>
           <a href="#about" className="w3-bar-item w3-button" style={{ width: '25%' }} data-aos="fade-down">ABOUT</a>
           <a href="#photos" className="w3-bar-item w3-button" style={{ width: '25%' }} data-aos="fade-down">PHOTOS</a>
-          <a href="#contact" className="w3-bar-item w3-button" style={{ width: '25%' }} data-aos="fade-down">CONTACT</a>
+          <a href="#freands" className="w3-bar-item w3-button" style={{ width: '25%' }} data-aos="fade-down">CONTACT</a>
         </div>
       </div>
 
@@ -71,11 +72,13 @@ function App() {
           </div>
           <br />
           <button className="w3-button w3-light-grey w3-padding-large w3-section">
-            <i className="fa fa-download"></i> LEBIH LENGKAPNYA
+          <Link to="/feedback" style={{ textDecoration: 'none', color: 'inherit' }}>
+          <i className="fa fa-envelope"></i> LEBIH LENGKAPNYA
+        </Link>
           </button>
         </div>
 
-        <div className="gallery-container" data-aos="fade-up">
+        <div className="gallery-container" id='photos' data-aos="fade-up">
           <div className="gallery">
             <img src="/SKILL ISU.png" alt="Design 1" className="gallery-item" data-aos="zoom-in" />
             <img src="/revamp fami x ramzy.png" alt="Design 2" className="gallery-item" data-aos="zoom-in" />
@@ -86,7 +89,7 @@ function App() {
           </div>
         </div>
 
-        <h3 className="w3-padding-24 w3-text-light-grey" data-aos="fade-left">CEES AWAAK</h3>
+        <h3 className="w3-padding-24 w3-text-light-grey" id='freands' data-aos="fade-left">CEES AWAAK</h3>
         <div className="profiles" data-aos="fade-right">
           <div className="profile" data-aos="zoom-in">
             <img src="/Brian.png" alt="Avatar" className="w3-left w3-margin-right" style={{ width: '80px' }} />
@@ -126,7 +129,7 @@ function App() {
         </div>
       </div>
 
-      <footer className="w3-content w3-padding-64 w3-text-grey w3-xlarge" id="foot" style={{ backgroundColor: '#000', color: '#fff' }}>
+      <footer className="footer w3-content w3-padding-64 w3-text-grey w3-xllarge" id="foot" style={{ backgroundColor: '#000', color: '#fff' }}>
         <a href="#"><i className="fa fa-facebook-official w3-hover-opacity"></i></a>
         <a href="https://www.instagram.com/hamonangan.rz"><i className="fa fa-instagram w3-hover-opacity"></i></a>
         <a href="https://id.pinterest.com/junfarisramji/"><i className="fa fa-pinterest-p w3-hover-opacity"></i></a>
